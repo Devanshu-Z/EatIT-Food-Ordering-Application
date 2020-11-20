@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="476dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/pro_name"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:hint="@string/name"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="250dp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/pro_mail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:hint="@string/e_mail"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="285dp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/pro_phone"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:hint="@string/phone_no"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="120dp"
+        android:background="@color/white"/>
+    <TextView
+        android:id="@+id/pro_loc"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:hint="@string/location"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/pro_method"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:hint="@string/method"
+        android:drawableLeft="@drawable/ic_dashboard_black_24dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white"/>
+
+
+
+</RelativeLayout>

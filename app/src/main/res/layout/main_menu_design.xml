@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/main_menu_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/donalds" />
+
+        <TextView
+            android:id="@+id/main_menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/main_menu_img"
+            android:fontFamily="@font/acme"
+            android:text="MC Donalds"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/main_menu_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_menu_title"
+            android:layout_toRightOf="@+id/main_menu_img"
+            android:padding="10dp"
+            android:text="bhahb mndbncbbsdvcbhjdvbhjsdvbv vxhjvcbdc "
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

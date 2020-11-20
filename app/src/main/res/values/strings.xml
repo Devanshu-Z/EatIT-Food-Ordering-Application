@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">EatIT</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already have an account? Login.</string>
+    <string name="e_mail">E Mail</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="new_user_register">New User? Register.</string>
+    <string name="next">NEXT</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="save">SAVE</string>
+    <string name="location">Location</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="logout">Logout</string>
+    <string name="navigation">Navigation</string>
+    <string name="sign_in_with_mail">Sign In with Mail</string>
+    <string name="sign_in_with_phone">Sign In with Phone</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="method">Method</string>
+    <string name="eatit">EatIT</string>
+    <string name="search">Search</string>
+    <string name="best_restaurants_at_your_door_step">Best Restaurants at your Door step.</string>
+    <string name="currently_available">Currently Available</string>
+    <string name="view_all">View ALL</string>
+
+</resources>

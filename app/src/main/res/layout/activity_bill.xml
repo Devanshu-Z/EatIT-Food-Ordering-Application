@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bill"
+    android:orientation="vertical"
+    android:background="@color/cyan50">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/nav_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_menu_black_24dp" />
+
+        <ImageView
+            android:id="@+id/fav_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_favorite_border_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eatit"
+            android:fontFamily="@font/archivoblack_regular"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:textSize="35sp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/main_menu_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/donalds" />
+
+        <TextView
+            android:id="@+id/main_menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/main_menu_img"
+            android:fontFamily="@font/acme"
+            android:text="MC Donalds"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/main_menu_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_menu_title"
+            android:layout_toRightOf="@+id/main_menu_img"
+            android:padding="10dp"
+            android:text="Best Burgers and Fries"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/burger_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Burger 1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical">
+
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150 rs"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/burger_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Burger 2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:textColor="@color/black"
+            android:gravity="center_vertical">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150 rs"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Total"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:textColor="@color/black"
+            android:gravity="center_vertical">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300 rs"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/place_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/black"
+        android:text="Place Order"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>

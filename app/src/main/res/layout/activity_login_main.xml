@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".login_main">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="497dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/signin_phone"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/back_rect"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:padding="10dp"
+        android:text="@string/sign_in_with_phone"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/signin_mail"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="@string/sign_in_with_mail"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="205dp"
+        android:background="@drawable/back_rect"/>
+
+    <Button
+        android:id="@+id/signin_google"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/back_rect"
+        android:drawableLeft="@drawable/ic_g__new_logo"
+        android:padding="10dp"
+        android:text="@string/sign_in_with_google"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        android:layout_width="117dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="85dp" />
+
+
+</RelativeLayout>

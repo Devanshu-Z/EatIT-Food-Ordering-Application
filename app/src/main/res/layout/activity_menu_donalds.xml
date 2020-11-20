@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan50"
+    android:orientation="vertical"
+    tools:context=".menu_donalds">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/nav_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_menu_black_24dp" />
+
+        <ImageView
+            android:id="@+id/fav_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_favorite_border_black_24dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/main_menu_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/donalds" />
+
+        <TextView
+            android:id="@+id/main_menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/main_menu_img"
+            android:fontFamily="@font/acme"
+            android:text="MC Donalds"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/main_menu_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_menu_title"
+            android:layout_toRightOf="@+id/main_menu_img"
+            android:padding="10dp"
+            android:text="Best Burgers and Fries"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/cyan100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MENU"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/black"
+                />
+            <Button
+                android:id="@+id/bill"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:visibility="invisible"
+                android:text="Bill"
+                android:textColor="@color/colorAccent"
+                android:background="@color/black"
+                android:textSize="30sp"/>
+            <RelativeLayout
+                android:id="@+id/menu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/burger_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Burger 1"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/menu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/burger_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Burger 2"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/burger_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Burger 3"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/burger_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Burger 4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/burger_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Burger 5"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/fries_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Fries 1"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/fries_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Fries 2"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/fries_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Fries 3"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/fries_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Fries 4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/fries_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Fries 5"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical">
+
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150 rs"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

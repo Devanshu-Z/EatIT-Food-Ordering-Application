@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/back_rect2"
+    android:paddingLeft="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/head_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:text="Devanshu \nMathur"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/head_name"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="@font/archivoblack_regular"
+        android:paddingBottom="40dp"
+        android:text="EatIT"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>
